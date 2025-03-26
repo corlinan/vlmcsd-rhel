@@ -1,6 +1,6 @@
 Name:           vlmcsd
-Version:        svn1113
-Release:        1%{?dist}
+Version:        20200328
+Release:        1.svn1113%{?dist}
 Summary:        KMS Emulator in C
 
 License:        LGPL-2.1+
@@ -22,7 +22,7 @@ supports KMS protocol versions 4, 5 and 6.
 %{nil}
 
 %prep
-%setup -q
+%setup -q -n vlmcsd-svn1113
 
 %build
 %{make_build} STRIP=0
