@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <service>
   <short>KMS Emulator in C</short>
-  <description>vlmcs is a program that can be used to test a KMS server that provides activation for several Microsoft products.</description>
+  <description>vlmcsd  is  a  fully  Microsoft compatible KMS server that provides product activation services to clients.</description>
   <port protocol="tcp" port="1688"/>
 </service>
