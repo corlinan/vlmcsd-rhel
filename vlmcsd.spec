@@ -11,8 +11,13 @@ Source10:       %{name}.service
 Source11:       %{name}.sysusers
 Source12:       %{name}.firewalld
 
+BuildRequires:  firewalld-filesystem
+BuildRequires:  gcc
 BuildRequires:  make
-Requires:       firewalld       
+BuildRequires:  systemd-rpm-macros
+Requires(post): firewalld
+%{?systemd_requires}
+%{?sysusers_requires_compat}
 
 %description
 vlmcsd  is  a  fully  Microsoft compatible KMS server that provides product
