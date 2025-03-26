@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>KMS Emulator in C</short>
+  <description>vlmcs is a program that can be used to test a KMS server that provides activation for several Microsoft products.</description>
+  <port protocol="tcp" port="1688"/>
+</service>
