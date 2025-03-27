@@ -1,6 +1,6 @@
 Name:           vlmcsd
 Version:        20200328
-Release:        1.svn1113%{?dist}
+Release:        2.svn1113%{?dist}
 Summary:        KMS Emulator in C
 
 License:        LGPL-2.1+
